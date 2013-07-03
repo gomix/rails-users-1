@@ -16,7 +16,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', '0.11.0', platforms: :ruby
+# TODO Fedora: no puedo instalar/construir nuevas versiones, no encuentra psych.so
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -43,3 +44,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'psych'
